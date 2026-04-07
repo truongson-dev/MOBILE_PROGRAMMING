@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_alert_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple AlertDialog" />
+
+    <Button
+        android:id="@+id/btn_alert_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with List" />
+
+    <Button
+        android:id="@+id/btn_alert_single_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Choice AlertDialog" />
+
+    <Button
+        android:id="@+id/btn_alert_multi_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multi Choice AlertDialog" />
+
+    <Button
+        android:id="@+id/btn_alert_custom_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Title AlertDialog" />
+
+</LinearLayout>
